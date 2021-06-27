@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/7d1231b7b0.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Candal|Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento&display=swap" rel="stylesheet">
+    <!-- Custom Styling -->
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <!-- Custom Styling -->
+    <link rel="stylesheet" href="../../css/admin.css">
+
+    <title>Admin Section - Manage Users</title>
+</head>
+<body>
+    <header>
+        <div class = "logo">
+            <h1 class = "logo.text"><span>Dive</span>In</h1>
+        </div>
+        <i class="fa fa-bars menu-toggle"></i>
+        <ul class="nav">
+            
+            <li>
+                <a href="#">
+                    <i class = "fa fa-user" ></i>
+                    Awa Melvine
+                    <i class = "fa fa-chevron-down" style="font-size: .8em;"></i>
+                </a>
+                <ul>
+                    <li><a href="#" class = "logout">Logout</a></li>
+                    
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <!-- Admin page-wrapper -->
+    <div class="admin-wrapper">
+        
+        
+        <!-- Left Sidebar -->
+        <div class="left-sidebar">
+            <ul>
+                <li><a href="index.html">Manage Posts</a></li>
+                <li><a href="../users/index.html">Manage Users</a></li>
+                <li><a href="../topics/index.html">Manage Topics</a></li>
+            </ul>
+        </div>
+            <!--// Left Sidebar -->
+        
+        
+        <!-- Admin Content -->
+        <div class="admin-content">
+            <div class="button-group">
+                <a href="create.html" class="btn btn-big">Add User</a>
+                <a href="index.html" class="btn btn-big">Manage Users</a>
+            </div>
+            <div class="content">
+
+                <h2 class="page-title">Manage Users</h2>
+
+                <table>
+                    <thead>
+                        <th>Sr No.</th>
+                        <th>Username</th>
+                        <th>Role</th>
+                        <th colspan="2">Action</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Rajat Prakash</td>
+                            <td>admin</td>
+                            <td><a href="#" class="edit">edit</a></td>
+                            <td><a href="#" class="delete">delete</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Rohit Kumar Vishwas</td>
+                            <td>author</td>
+                            <td><a href="#" class="edit">edit</a></td>
+                            <td><a href="#" class="delete">delete</a></td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+        </div>
+        <!--// Admin Content -->
+
+    
+        
+
+        
+
+
+    </div>
+    <!-- //Admin Page wrapper -->
+
+  
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    
+    
+				
+
+    <!-- Custom Script -->
+    <script src="../../js/script.js"></script>
+</body>
+</html>
